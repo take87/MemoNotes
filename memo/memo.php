@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-define('DB_PASS', 'hxp9zWzqzpwXTIvK');
+define('DB_PASS', 'password');
 define("FILE_DIR", "/Applications/MAMP/htdocs/");
 
 date_default_timezone_set('Asia/Tokyo');
