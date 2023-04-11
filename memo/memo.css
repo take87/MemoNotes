@@ -1,0 +1,109 @@
+
+/* common part */
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-shadow:2px 0 0 #000, 0 2px 0 #000, -2px 0 0 #000, 0 -2px 0 #000;
+}
+
+body {
+    background-color:khaki;
+}
+
+hr {
+    margin:40px 0;
+}
+
+input {
+    vertical-align:middle;
+}
+
+.edit input,textarea {
+    display: block;
+}
+/* memo part */
+
+time {
+    color: gray;
+}
+
+
+article {
+    background-color:whitesmoke;
+    border-radius: 5px;
+    margin: 6px 15px;
+    padding:10px;
+}
+
+a {
+    color:goldenrod;
+}
+
+/* input part */
+
+input[type="text"], textarea {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-size: 80%;
+}
+
+.search {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+
+input[type="text"] {
+    width: 200px;
+    font-size: 80%;
+}
+
+textarea {
+    width: 50%;
+    height: 70px;
+    font-size: 80%;
+}
+
+input[type="submit"] {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 7px 15px;
+    background-color:rgb(49, 49, 49);
+    border: none;
+    color:white;
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: 1.0em;
+}
+
+input[type="submit"]:hover {
+    background-color: #2392d8;
+}
+
+.home {
+    margin: 20px 0 0 10px;
+    color:black;
+}
+
+.main {
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sent {
+    text-align: right;
+}
+
+.btn_yes {
+    margin-left: 15px;
+}
